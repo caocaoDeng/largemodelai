@@ -22,6 +22,7 @@ export default function Home() {
     useEffect(() => {
         console.log('1111');
         console.log('main');
+        console.log('main1');
         test();
     }, []);
     return (
