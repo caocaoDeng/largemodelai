@@ -20,6 +20,7 @@ export default function Home() {
         }
     };
     useEffect(() => {
+        console.log('1111');
         test();
     }, []);
     return (
